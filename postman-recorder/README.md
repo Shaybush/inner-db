@@ -9,3 +9,5 @@ pnpm build
 ```
 
 Load `.output/chrome-mv3` as an unpacked extension.
+
+Created by Shay Bushary.

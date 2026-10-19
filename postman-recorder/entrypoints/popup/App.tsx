@@ -145,6 +145,8 @@ function App() {
       )}
 
       {!state.recording && !hasRequests && <p className='hint'>Press start, use the page, then stop.</p>}
+
+      <p className='credit'>Created by Shay Bushary</p>
     </div>
   );
 }
