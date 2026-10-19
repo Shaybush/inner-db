@@ -1,0 +1,19 @@
+:root {
+  --orange: #f26a1b;
+  --orange-dark: #d85a10;
+  --green: #2e9e3f;
+  --ink: #1f2a24;
+  --muted: #6b7a70;
+  --line: #e5e9e6;
+  --surface: #ffffff;
+  --tint: #fff4ec;
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+  color-scheme: light;
+  color: var(--ink);
+  background-color: var(--surface);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}

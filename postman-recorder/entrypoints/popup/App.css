@@ -1,0 +1,30 @@
+.app { width: 520px; padding: 14px; font-size: 13px; }
+.bar { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+h1.brand { display: flex; align-items: center; gap: 8px; font-size: 16px; margin: 0; color: var(--ink); }
+.brand img { width: 28px; height: 28px; }
+.hint { color: var(--muted); }
+.btn { padding: 6px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); cursor: pointer; font-weight: 500; }
+.btn:hover { background: var(--tint); }
+.btn.primary { background: var(--orange); border-color: var(--orange); color: #fff; }
+.btn.primary:hover { background: var(--orange-dark); }
+.btn.start { background: var(--green); border-color: var(--green); color: #fff; }
+.btn.start:hover { background: #26853a; }
+.btn.stop { background: var(--orange); border-color: var(--orange); color: #fff; }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.filters { display: flex; gap: 6px; margin: 12px 0 8px; }
+.filters input { flex: 1; }
+.filters input, .filters select { padding: 5px 8px; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: var(--surface); }
+.filters input:focus, .filters select:focus { outline: 2px solid var(--orange); outline-offset: -1px; }
+.list { list-style: none; margin: 6px 0 10px; padding: 0; max-height: 320px; overflow-y: auto; border-top: 1px solid var(--line); }
+.list li { border-bottom: 1px solid var(--line); }
+.row { display: flex; align-items: center; gap: 8px; padding: 5px 4px; cursor: pointer; }
+.row:hover { background: var(--tint); }
+.row.all { font-weight: 600; }
+input[type='checkbox'] { accent-color: var(--orange); }
+.method { width: 52px; font-weight: 700; font-size: 11px; }
+.method.GET { color: var(--green); }
+.method.POST { color: var(--orange); }
+.method.PUT, .method.PATCH { color: #b8860b; }
+.method.DELETE { color: #c62828; }
+.path { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.status { color: var(--muted); width: 30px; text-align: right; }
